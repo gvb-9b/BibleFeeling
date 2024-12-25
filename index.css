@@ -1,0 +1,63 @@
+#appName{
+
+  font-family: 'Georgia', cursive;
+  text-align: center;
+  color: #c8a571;
+  text-shadow: 3px 3px black;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+body {
+  background-image: url(./ai-generated-8744765_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+#feelingQuestion{
+
+  text-align: center;
+  font-family: 'Georgia', cursive;
+  color: white;
+  text-shadow: 3px 3px rgb(75 148 171);
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+#buttons{
+
+  margin-top: 15%;
+}
+
+#verse{
+
+  margin-top: 50%;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  font-family: 'Georgia', cursive;
+  color: white;
+  text-shadow: 3px 3px rgb(75 148 171);
+  font-weight: bold;
+  padding-top: 5%;
+  min-height: 200px;
+}
+
+#homeIcone{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+#homeIcone img {
+  transition: transform 0.3s ease;
+}
+
+#homeIcone img.zoomed {
+  transform: scale(1.5);
+}
